@@ -10,11 +10,11 @@ import UIKit
 
 public class WebViewProgressView: UIView {
 
-    var progress: Float = 0.0
-    var progressBarView: UIView?
-    var barAnimationDuration: TimeInterval?
-    var fadeAnimationDuration: TimeInterval?
-    var fadeOutDelay: TimeInterval?
+    open var progress: Float = 0.0
+    open var progressBarView: UIView?
+    open var barAnimationDuration: TimeInterval?
+    open var fadeAnimationDuration: TimeInterval?
+    open var fadeOutDelay: TimeInterval?
 
     // MARK: Initializer
     override public init(frame: CGRect) {
